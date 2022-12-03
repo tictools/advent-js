@@ -1,36 +1,17 @@
-import { DAYS_OF_THE_WEEK_INDEX } from "./constants";
-import getMMDDYYDate from "./helpers/getMMDDYYDate";
-import { countHoursType } from "./types";
+import countHours from "./countHours";
 
-const year: number = 2022;
+const year: number = 2020;
 
 const holidays: string[] = [
   "01/06",
   "01/07",
   "01/08",
+  "02/29",
   "05/06",
   "04/01",
   "12/25",
 ];
 
-const getDayFromDate = (date) => {
-  const currentDate = new Date(date);
-  return currentDate.getDay();
-};
+const hours = countHours({ holidays, year });
 
-const isWeekendDay = (day) =>
-  day === DAYS_OF_THE_WEEK_INDEX.Saturday ||
-  day === DAYS_OF_THE_WEEK_INDEX.Sunday;
-
-function countHours({ year, holidays }: countHoursType) {
-  holidays.forEach((currentDate) => {
-    const fullDateAsString = getMMDDYYDate(currentDate, year);
-    const dayOfTheWeek = getDayFromDate(fullDateAsString);
-    const weekendDay = isWeekendDay(dayOfTheWeek);
-
-    console.log({ fullDateAsString, dayOfTheWeek, weekendDay });
-  });
-  return 0;
-}
-
-countHours({ holidays, year });
+console.log(`🚀 This year you will work ${hours} extra hours`);
