@@ -1,0 +1,24 @@
+{
+  "name": "advent-js",
+  "version": "1.0.0",
+  "description": "Code challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tictools/advent-js"
+  },
+  "keywords": [
+    "javascript",
+    "challenge",
+    "midudev"
+  ],
+  "author": "tictools",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-jest": "29.0.3",
+    "ts-node": "10.9.1"
+  }
+}
