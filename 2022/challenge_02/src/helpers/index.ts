@@ -1,4 +1,4 @@
-import getDayIndexFromDate from "./getDayFromDate";
+import getDayIndexFromDate from "./getDayIndexFromDate";
 import getMMDDYYDate from "./getMMDDYYDate";
 import isWeekendDay from "./isWeekendDay";
 
