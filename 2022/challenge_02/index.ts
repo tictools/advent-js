@@ -1,4 +1,4 @@
-import countHours from "./countHours";
+import countHours from "./src/countHours";
 
 const year: number = 2020;
 
