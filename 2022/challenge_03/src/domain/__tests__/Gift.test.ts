@@ -1,6 +1,6 @@
 import { Gift } from "../index";
 
-describe("given Gist class", () => {
+describe("given Gift class", () => {
   const GIFT = "book";
 
   test("when an instance is created then method calculateWeight should be defined", () => {

@@ -1,7 +1,7 @@
 import { ItemsList } from "..";
 import MockItem from "../../mocks/MockItem";
 
-describe("given Gist class", () => {
+describe("given ItemsList class", () => {
   const item1 = new MockItem();
   const item2 = new MockItem();
   const item3 = new MockItem();

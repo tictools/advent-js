@@ -1,7 +1,7 @@
 import { WEIGHT_FACTOR } from "../constants";
 import { Reindeer } from "../index";
 
-describe("given Gist class", () => {
+describe("given Reindeer class", () => {
   const REINDEER = "dancer";
 
   test("when an instance is created then method calculateWeight should be defined", () => {
