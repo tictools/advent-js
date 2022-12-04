@@ -1,4 +1,4 @@
-import { WEIGHT_FACTOR } from "../contants";
+import { WEIGHT_FACTOR } from "../constants";
 import { Reindeer } from "../index";
 
 describe("given Gist class", () => {

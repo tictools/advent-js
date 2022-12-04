@@ -1,4 +1,4 @@
-import { WEIGHT_FACTOR } from "../contants";
+import { WEIGHT_FACTOR } from "../constants";
 import { ItemOperations } from "../types";
 
 export default class Reindeer implements ItemOperations {
