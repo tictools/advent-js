@@ -1,5 +1,5 @@
-import { WEIGHT_FACTOR } from "../constants";
-import { Reindeer } from "../index";
+import { WEIGHT_FACTOR } from "../domain/constants";
+import { Reindeer } from "../domain/index";
 
 describe("given Reindeer class", () => {
   const REINDEER = "dancer";

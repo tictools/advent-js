@@ -1,4 +1,4 @@
-import { DistributionCalculator } from "../index";
+import { DistributionCalculator } from "../domain/index";
 
 describe("given DistributionCalculator class", () => {
   const EXPECTED_DISTRIBUION = {
