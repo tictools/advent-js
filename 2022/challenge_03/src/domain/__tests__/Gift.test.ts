@@ -1,4 +1,4 @@
-import { Gift } from "../domain";
+import { Gift } from "../index";
 
 describe("given Gist class", () => {
   const GIFT = "book";

@@ -1,5 +1,5 @@
-import { ItemsList } from "../domain";
-import MockItem from "../mocks/MockItem";
+import { ItemsList } from "..";
+import MockItem from "../../mocks/MockItem";
 
 describe("given Gist class", () => {
   const item1 = new MockItem();

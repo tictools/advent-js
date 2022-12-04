@@ -1,5 +1,5 @@
-import { Reindeer } from "../domain";
-import { WEIGHT_FACTOR } from "../domain/contants";
+import { WEIGHT_FACTOR } from "../contants";
+import { Reindeer } from "../index";
 
 describe("given Gist class", () => {
   const REINDEER = "dancer";
